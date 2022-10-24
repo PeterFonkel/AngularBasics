@@ -1,16 +1,22 @@
 # AngularBasics
 
-## Instalación
+## 1.Instalación
 
 Para usar Angular debe estar instalado NODE y NPM.
 
 Comprobar instalacion de NODE y NPM:
+
 `node -v`
+
 `npm -v`
 
 En caso de no estar instalado:
 
+NODE
+
 https://nodejs.org/es/download
+
+NPM
 
 `npm install npm@latest -g`
 
@@ -32,7 +38,7 @@ Instalar Angular:
 
 `npm install -g @angular/cli`
 
-## Crear un proyecto
+## 2.Crear un proyecto
 
 `ng new <nombreApp>`
 
@@ -57,6 +63,22 @@ En el archivo angular.json:
   "node_modules/bootstrap/dist/js/bootstrap.min.js"
 ]
 ```
-rg
+## 3.Estructura de modulos y componentes
+
+Cada funcionalidad tendrá un módulo diferente:
+
+`ng g m <nombre_modulo> --routing true`
+
+Creamos un contendor de elementos iguales. Le pondremos el nombre en plural:
+
+`ng g c <nombre_modulo>/<nombre_componente_plural>`
+
+Creamos un componente singular:
+
+`ng g c <nombre_modulo>/<nombre_componente_plural><nombre_componente_singular>`
+
+
+
+
 
 
