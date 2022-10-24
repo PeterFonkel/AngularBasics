@@ -46,7 +46,7 @@ Instalar Angular:
 
 Se abrirá un proyecto Angular por defecto en puerto 4200.
 
-###Instalar Bootstrap, jquery y popper
+### Instalar Bootstrap, jquery y popper
 
 `npm install bootstrap jquery @popperjs/core`
 
