@@ -70,7 +70,7 @@ En el archivo angular.json:
 
 Un módulo es un conjunto de código con una funcionalidad determinada:
 
-![Esquema_modulo_angular](Esquema_modulo_angular_2.png)
+![Esquema_modulo_angular](Esquema_modulo_angular_3.png)
 
 Creamos un módulo:
 
