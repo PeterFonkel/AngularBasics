@@ -12,11 +12,11 @@ Comprobar instalacion de NODE y NPM:
 
 En caso de no estar instalado:
 
-NODE
+Node
 
 https://nodejs.org/es/download
 
-NPM
+Npm
 
 `npm install npm@latest -g`
 
@@ -63,6 +63,8 @@ En el archivo angular.json:
   "node_modules/bootstrap/dist/js/bootstrap.min.js"
 ]
 ```
+
+`npm install`
 ## 3.Estructura de modulos y componentes
 
 
@@ -146,7 +148,7 @@ constructor(public nombreServicio: <nombre_servicio>) { }
 
 En este momento ya podemos emplear los métodos del "service" en nuestro componente.
 
-En general, los servicios que consumen una API REST, se tratarán de una serie de métodos de llamadas HTTP ([HTTPClient](https://angular.io/guide/http)) .
+En general, los servicios que consumen una API REST, se tratarán de una serie de métodos de llamadas [HTTP](https://angular.io/guide/http) .
 
 
 
