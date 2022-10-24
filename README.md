@@ -131,7 +131,7 @@ En el modulo:
   imports: [
     CommonModule
   ],
-  declarations: [ListadoClientesComponent],
+  declarations: [<nombre_componente_contenedor>],
   providers: [<nombre_servicio>]
 })
 ```
